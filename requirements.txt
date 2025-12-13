@@ -8,7 +8,7 @@ decorator==5.2.1
 exceptiongroup==1.2.2
 executing==2.2.0
 fonttools==4.56.0
-imbalanced-learn==0.12.4
+imbalanced-learn==0.14.0
 imblearn==0.0
 importlib_metadata==8.6.1
 importlib_resources==6.5.2
