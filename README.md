@@ -23,29 +23,31 @@ This project is developed as part of the NUS course IT1244 Artificial Intelligen
 
 ## **Project Structure**
 
+```
 ml-fraud-prediction  
 ├── README.md  
 ├── dataset  
 │   ├── clients.csv  
 │   ├── invoice.csv  
 ├── code.ipynb  
-└── report.pdf    
+└── report.pdf
+``` 
 
 ## **Setup**
 
-### Clone the Repository
+#### Clone the Repository
 ```
 git clone https://github.com/kevinkhoow/ml-fraud-prediction.git
 cd ml-fraud-prediction
 ```
 
-###  Set Up and Activate Virtual Environment
+####  Set Up and Activate Virtual Environment
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### Install Dependencies
+#### Install Dependencies
 ```
 pip install -r requirements.txt
 ```
