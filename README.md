@@ -10,26 +10,26 @@ This project aims to investigate the effectiveness of the following machine lear
 Fraudulent consumption of electricity and gas results in financial losses that are not only borne by distribution companies, but are also passed onto consumers in most cases. Additionally, illicit tampering with distribution networks compromises the reliability of the power grid and poses a risk to public safety (Plummer 2025).
 
 The project is structured into the following key phases:
-* **Exploratory Data Analysis (EDA)**
+* **Exploratory Data Analysis** (EDA)
 * **Train-test Split**
 * **Data Pre-processing**
-  * Feature Engineering, using one-hot encoding (OHE) and data aggregation
-  * Feature Scaling
-  * Feature Selection, using Sequential Forward Selection (SFS) implemented via MLxtend
-  * Oversampling to handle Class Imbalance, using the Synthetic Minority Oversampling Technique (SMOTE) implemented via imbalanced-learn
+  * **Feature Engineering**, using one-hot encoding (OHE) and data aggregation
+  * **Feature Scaling**
+  * **Feature Selection**, using Sequential Forward Selection (SFS) implemented via MLxtend
+  * **Oversampling to handle Class Imbalance**, using the Synthetic Minority Oversampling Technique (SMOTE) implemented via imbalanced-learn
 * **Results and Discussion**
 
 This project is developed as part of the NUS course IT1244 Artificial Intelligence: Technology and Impact.
 
 ## **Project Structure**
 
-ml-fraud-prediction
-├── README.md 
-├── dataset
-│   ├── clients.csv
-│   ├── invoice.csv
-├── code.ipynb
-└── report.pdf   
+ml-fraud-prediction  
+├── README.md  
+├── dataset  
+│   ├── clients.csv  
+│   ├── invoice.csv  
+├── code.ipynb  
+└── report.pdf    
 
 ## **Setup**
 
